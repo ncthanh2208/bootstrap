@@ -1,0 +1,102 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    padding: 0.8rem;
+}
+.navbar-nav li {
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.1rem !important;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption{
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h3{
+    font-size:200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px 10px #000;
+}
+.btn-primary{
+    background-color: #6648b1;
+    border: 1px solid #6648b1;
+}
+.btn-primary:hover{
+    background-color: #563d7c;
+    border:1px solid #563d7c;
+}
+.jumbltron{
+    padding: 1em;
+    border-radius:0;
+}
+.padding{
+    padding-botton: 2rem;
+}
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr{
+    border-top: 1px solid black;
+    width: 95%;
+    margin-top:0.3rem;
+    margin-bottom:1rem;
+}
+
+.fa-code{
+color:red;
+}
+.fa-css3{
+color: blue;
+}
+.fa-bootstrap{
+color: black;
+}
+.fa-bootstrap, .fa-code, .fa-css3{
+    font-size: 4em;
+    margin: 2rem;
+}
+figure{
+    background-image: url(../img/mac.png);
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0 ;
+}
+.Size-two-column{
+    width: 80%;
+    height: auto;
+}
+.Size-emoji{
+    width:80%;
+    height: auto;
+}
+.social{
+    color: black;
+    font-size: 4.5em;
+    padding: 2rem;
+}
+
+.fa-facebook-square:hover,
+.fa-instagram:hover,
+.fa-google-plus-square:hover,
+.fa-github-square:hover,
+.fa-linkedin:hover{
+    color:#555;  
+}
